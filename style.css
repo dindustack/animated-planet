@@ -220,12 +220,13 @@ section {
 .slide-number p {
   font-size: 40px;
   font-family: "AlphaCentauri" !important;
-  color: #FFF;
+  color: #fff;
   position: relative;
 }
 
 .slide-number p span {
-  position: absolute ;
+  position: absolute;
+  cursor: pointer;
 }
 
 .slide-detail {
@@ -240,7 +241,7 @@ section {
 
 .slide-detail p {
   font-size: 14px;
-  color: #FFF;
+  color: #fff;
   position: relative;
   opacity: 0.8;
   line-height: 30px;

@@ -27,8 +27,7 @@ const slider = new Swiper(".swiper-container", {
   },
 });
 
-lider.on("slideChange", function () {
-  console.log("SLIDE CHANGED");
+slider.on("slideChange", function () {
   gsap.to(".slide-text span", 0.2, {
     x: "-100px",
   });
